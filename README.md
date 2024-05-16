@@ -1,4 +1,4 @@
-# Mail Server Log Monitor Script
+# Mail Server Log Monitor and Report to AbuseIPDB Script 
 
 This script monitors mail server logs and reports suspicious IP addresses to AbuseIPDB. It helps identify potential email spammers by tracking login attempts.
 
