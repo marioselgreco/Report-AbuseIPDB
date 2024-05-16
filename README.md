@@ -1,6 +1,6 @@
 # Mail Server Log Monitor and Report to AbuseIPDB Script 
 
-This script monitors mail server logs and reports suspicious IP addresses to AbuseIPDB. It helps identify potential email spammers by tracking login attempts.
+This script monitors mail server logs and reports suspicious IP addresses to AbuseIPDB. It helps identify potential hackers and bothacks by tracking login attempts.
 
 **Features:**
 
@@ -14,5 +14,5 @@ This script monitors mail server logs and reports suspicious IP addresses to Abu
 * `logFile`: Path to the mail server log file (e.g., `/var/log/mail.log`).
 * `timeFrame`: Time window (in seconds) to consider repeated login attempts (default: 3600 seconds - 1 hour).
 * `apiKey`: Your AbuseIPDB API key (replace with your actual key).
-* `categoryID`: AbuseIPDB category ID for email spam (default: 11,15,17).
+* `categoryID`: AbuseIPDB category ID for hacking, email spam, spoofing (default: 11,15,17).
 * `lastReportedFile`: Path to the file storing previously reported IP addresses and timestamps.
